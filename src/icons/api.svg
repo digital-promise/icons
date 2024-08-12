@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"><path fill="currentColor" fill-rule="evenodd" d="M6 4v1H5v4h2V7h1v2h1V4zm2 1v1H7V5zm6-1h-4v5h2V7h2zm-2 2V5h1v1z" clip-rule="evenodd"/><path fill="currentColor" d="M18 5v3h1v1h-4V8h1V5h-1V4h4v1z"/><path fill="currentColor" fill-rule="evenodd" d="M13 12h9V1H2v11h9v2H4v4H1v6h8v-6H6v-2h5v8h2zm7-9H4v7h16zM3 20v2h4v-2z" clip-rule="evenodd"/><path fill="currentColor" fill-rule="evenodd" d="M14 16v-2h6v4h3v6h-8v-6h3v-2zm7 6v-2h-4v2z" clip-rule="evenodd"/></svg>
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M6 4V5H5V9H7V7H8V9H9V4H6ZM8 5V6H7V5H8Z" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M14 4H10V9H12V7H14V4ZM12 6V5H13V6H12Z" fill="black"/>
+<path d="M18 5V8H19V9H15V8H16V5H15V4H19V5H18Z" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M13 12H22V1H2V12H11V14H4L4 18H1V24H9V18H6L6 16H11V24H13V12ZM20 3H4V10H20V3ZM3 20V22H7V20H3Z" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M14 16V14H20V18H23V24H15V18H18V16H14ZM21 22V20H17V22H21Z" fill="black"/>
+</svg>
