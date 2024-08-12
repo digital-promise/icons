@@ -1,0 +1,21 @@
+{
+  "name": "@digitalpromse/icons",
+  "version": "1.0.0",
+  "description": "Digital Promise brand icons, packaged into an icon font.",
+  "scripts": {
+    "build": "mkdir -p dist && fantasticon",
+    "svg:optimize": "svgo -f src/icons",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Digital Promise",
+  "files": [
+    "dist"
+  ],
+  "license": "ISC",
+  "packageManager": "pnpm@9.7.0+sha512.dc09430156b427f5ecfc79888899e1c39d2d690f004be70e05230b72cb173d96839587545d09429b55ac3c429c801b4dc3c0e002f653830a420fa2dd4e3cf9cf",
+  "devDependencies": {
+    "fantasticon": "^3.0.0",
+    "svgo": "^3.3.2"
+  }
+}

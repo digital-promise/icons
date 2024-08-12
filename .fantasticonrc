@@ -1,0 +1,24 @@
+{
+    "inputDir": "./src/icons",
+    "outputDir": "./dist",
+    "fontTypes": [
+        "woff",
+        "woff2"
+    ],
+    "assetTypes": [
+        "ts",
+        "css"
+    ],
+    "formatOptions": {
+        "ts": {
+            "types": ["enum"],
+            "enumName": "DPGIcons"
+        }
+    },
+    "templates": {
+        "css": "./src/templates/css.hbs"
+    },
+    "fontsUrl": "",
+    "name": "dpg-icons",
+    "prefix": "dpg-icons"
+}
