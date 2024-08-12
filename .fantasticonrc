@@ -11,8 +11,9 @@
     ],
     "formatOptions": {
         "ts": {
-            "types": ["enum"],
-            "enumName": "DPGIcons"
+            "enumName": "DPGIcons",
+            "literalKeyName": "DPGIconName",
+            "literalIdName": "DPGIconId"
         }
     },
     "templates": {
