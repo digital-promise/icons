@@ -1,5 +1,5 @@
 {
-    "inputDir": "./src/icons",
+    "inputDir": "./dist/icons",
     "outputDir": "./dist",
     "fontTypes": [
         "woff",
