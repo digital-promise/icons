@@ -1,11 +1,14 @@
 export default {
     plugins: [
       {
-        name: 'removeAttrs',
+        name: "preset-default",
         params: {
-          attrs: '*:(stroke|fill):((?!^none$).)*'
-        },
-      },
-      'preset-default'
+          overrides: {
+            convertColors: {
+              currentColor: true
+            }
+          }
+        }
+      }
     ],
 };
