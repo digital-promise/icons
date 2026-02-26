@@ -1,9 +1,9 @@
 {
   "name": "@digitalpromise/icons",
-  "version": "1.4.0",
+  "version": "2.0.0",
   "description": "Digital Promise brand icons, packaged into an icon font.",
   "scripts": {
-    "build": "fantasticon",
+    "build": "fantasticon && pnpm svgr dist/icons",
     "prebuild": "mkdir -p dist dist/icons && pnpm svg:reorient && pnpm svg:optimize",
     "svg:reorient": "reorient src/icons -o dist/icons",
     "svg:optimize": "svgo -f dist/icons",
@@ -11,13 +11,21 @@
   },
   "keywords": [],
   "author": "Digital Promise",
+  "exports": {
+    ".": "./index.ts",
+    "./components": "./dist/components/index.ts",
+    "./css": "./dist/index.css",
+    "./woff": "./dist/index.woff",
+    "./woff2": "./dist/index.woff2"
+  },
   "files": [
     "dist"
   ],
   "license": "ISC",
   "packageManager": "pnpm@9.7.0+sha512.dc09430156b427f5ecfc79888899e1c39d2d690f004be70e05230b72cb173d96839587545d09429b55ac3c429c801b4dc3c0e002f653830a420fa2dd4e3cf9cf",
   "devDependencies": {
-    "fantasticon": "^3.0.0",
+    "@svgr/cli": "^8.1.0",
+    "fantasticon": "^4.1.0",
     "svg-reorient": "^1.0.3",
     "svgo": "^4.0.0"
   }
