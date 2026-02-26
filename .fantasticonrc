@@ -20,6 +20,6 @@
         "css": "./src/templates/css.hbs"
     },
     "fontsUrl": "",
-    "name": "dpg-icons",
+    "name": "index",
     "prefix": "dpg-icons"
 }
