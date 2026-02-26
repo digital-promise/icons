@@ -1,6 +1,6 @@
 {
   "name": "@digitalpromise/icons",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Digital Promise brand icons, packaged into an icon font.",
   "scripts": {
     "build": "fantasticon && pnpm svgr dist/icons",
