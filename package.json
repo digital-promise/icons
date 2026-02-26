@@ -1,6 +1,6 @@
 {
   "name": "@digitalpromise/icons",
-  "version": "2.5.0",
+  "version": "2.6.0",
   "type": "module",
   "description": "Digital Promise brand icons, packaged into an icon font.",
   "scripts": {
@@ -14,7 +14,7 @@
   "author": "Digital Promise",
   "exports": {
     ".": "./dist/index.ts",
-    "./components": "./dist/components/index.js",
+    "./components": "./dist/components/index.ts",
     "./css": "./dist/index.css",
     "./woff": "./dist/index.woff",
     "./woff2": "./dist/index.woff2"
