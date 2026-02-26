@@ -1,6 +1,6 @@
 {
   "name": "@digitalpromise/icons",
-  "version": "2.6.0",
+  "version": "2.6.1",
   "type": "module",
   "description": "Digital Promise brand icons, packaged into an icon font.",
   "scripts": {
