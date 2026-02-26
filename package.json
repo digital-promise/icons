@@ -1,6 +1,6 @@
 {
   "name": "@digitalpromise/icons",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Digital Promise brand icons, packaged into an icon font.",
   "scripts": {
     "build": "fantasticon && pnpm svgr dist/icons",
@@ -12,7 +12,7 @@
   "keywords": [],
   "author": "Digital Promise",
   "exports": {
-    ".": "./index.ts",
+    ".": "./dist/index.ts",
     "./components": "./dist/components/index.ts",
     "./css": "./dist/index.css",
     "./woff": "./dist/index.woff",
