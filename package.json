@@ -1,6 +1,6 @@
 {
   "name": "@digitalpromise/icons",
-  "version": "2.6.1",
+  "version": "3.0.0",
   "type": "module",
   "description": "Digital Promise brand icons, packaged into an icon font.",
   "scripts": {
@@ -28,6 +28,6 @@
     "@svgr/cli": "^8.1.0",
     "fantasticon": "^4.1.0",
     "svg-reorient": "^1.0.3",
-    "svgo": "^4.0.0"
+    "svgo": "^4.0.1"
   }
 }
