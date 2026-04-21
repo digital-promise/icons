@@ -1,6 +1,6 @@
 {
   "name": "@digitalpromise/icons",
-  "version": "3.1.0",
+  "version": "3.2.1",
   "type": "module",
   "description": "Digital Promise brand icons, packaged into an icon font.",
   "scripts": {
@@ -23,7 +23,7 @@
     "dist"
   ],
   "license": "ISC",
-  "packageManager": "pnpm@9.7.0+sha512.dc09430156b427f5ecfc79888899e1c39d2d690f004be70e05230b72cb173d96839587545d09429b55ac3c429c801b4dc3c0e002f653830a420fa2dd4e3cf9cf",
+  "packageManager": "pnpm@10.33.0+sha512.10568bb4a6afb58c9eb3630da90cc9516417abebd3fabbe6739f0ae795728da1491e9db5a544c76ad8eb7570f5c4bb3d6c637b2cb41bfdcdb47fa823c8649319",
   "devDependencies": {
     "@svgr/cli": "^8.1.0",
     "fantasticon": "^4.1.0",
